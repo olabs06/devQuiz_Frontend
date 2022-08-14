@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(104, 106, 106);
+  background: linear-gradient(
+    90deg,
+    rgb(99, 101, 101) 0%,
+    rgb(98, 99, 99) 100%
+  );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 1em;
+}
+
+button {
+  font-family: "Press Start 2p", cursive;
+  font-size: 1rem;
+  border: 3px solid black;
+  padding: 0.5rem 1rem;
+  background-color: rgba(244, 2, 2, 0.75);
+  box-shadow: inset -3px -3px 0 0 rgb(242, 8, 8);
+  transition: all 0.1s ease-in;
+  margin: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border:solid 1px;
+ 
+}
+
+main {
+  margin: 4rem auto;
+  max-width: 700px;
+  height: 500px;
+  min-height: 500px;
+  background: white;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
